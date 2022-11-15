@@ -130,4 +130,6 @@ a:link { text-decoration: none; }
 
 .btn-form:hover{
     cursor: pointer;
+    transition: 0.3s all;
+    transform: scale(1.1)
 }
