@@ -8,7 +8,7 @@ body{
     padding: 2%;
 }
 
-.navbar{
+.header-principal{
     display: flex;
     justify-content: space-between;
 }
@@ -74,7 +74,7 @@ a:link { text-decoration: none; }
 
 .navigation {
     position: absolute;
-    bottom: 20px;
+    bottom: 1px;
     left: 50%;
     transform: translate(-50%);
     display: flex;

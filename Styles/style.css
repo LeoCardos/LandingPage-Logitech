@@ -8,7 +8,7 @@ body{
     padding: 2%;
 }
 
-.navbar{
+.header-principal{
     display: flex;
     justify-content: space-between;
 }
@@ -61,20 +61,20 @@ body{
 /* icones da navbar */
 a:link { text-decoration: none; }
 
-.header{
+.form-completo{
     display: flex;
     justify-content: space-between;
     height: 650px;
 }
 
-.header-form{
+.form-conteudo{
     padding-top: 85px;
     margin-top: auto;
     margin-bottom: auto;
     max-width: 60%;
 }
 
-.header-img{
+.logitech-img{
     height: 400px;
     width: 400px;
 }
@@ -84,18 +84,18 @@ a:link { text-decoration: none; }
     margin-bottom: auto;
 }
 
-.inscrever{
+.text-inscreva-se{
     color: #00ABE6;
     font-size: 3.0rem;
 }
 
-.header-logitech{
+.text-Logitech{
     color: white;
     font-size: 2.75rem;
     margin-top: -50px;
 }
 
-.header-text{
+.text-descricao{
     color: white;
     font-size: 1.50rem;
     margin-bottom: 35px;
@@ -106,15 +106,17 @@ a:link { text-decoration: none; }
     display: flex;
     flex-direction: column;
     width: 50%;
+    outline-style: none;
 }
 
 .form-input{
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
+    margin-top: 1.25rem;
+    height: 1.25rem;
+    padding: 0.9rem;
+    border-radius: 15px;
     border: none;
-    font-size: 15px;
+    font-size: 0.9rem;
+    outline-color: #00ABE6;
 }
 
 .btn-form{
@@ -124,12 +126,14 @@ a:link { text-decoration: none; }
     background-color: #00ABE6;
     color: white;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 15px;
     font-size: 20px;
+    border: none;
 }
 
 .btn-form:hover{
     cursor: pointer;
-    transition: 0.3s all;
-    transform: scale(1.1)
+    background-color: #00ABE6;
+    color: white;
+    transition: 0.6s all;
 }
